@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "colorfulfire",
+  "version": "${version}",
+  "name": "ColorfulFire",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/chemiofitor/Colorful-Fire"
+  },
+  "license": "MIT",
+  "icon": "assets/colorfulfire/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "hlft.fabric.colorfulfire.client.ColorfulFireClient"
+    ],
+    "main": [
+      "hlft.fabric.colorfulfire.ColorfulFire"
+    ],
+    "fabric-datagen": [
+      "hlft.fabric.colorfulfire.datagen.ColorFireDataGen"
+    ]
+  },
+  "mixins": [
+    "colorfulfire.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0"
+  }
+}

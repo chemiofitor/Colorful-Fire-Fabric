@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_side_alt",
+  "textures": {
+    "fire": "colorfulfire:block/indigo_fire_0"
+  }
+}
